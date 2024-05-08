@@ -1,6 +1,7 @@
 pub mod vmess;
 pub mod sip002;
 pub mod sip008;
+mod clash;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
